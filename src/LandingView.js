@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 // import title_foto from './title_foto.png'; 
 
 export default function LandingView() {

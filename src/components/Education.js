@@ -1,9 +1,8 @@
 import './../App.css';
 
-export default function Section() {
+export default function Education() {
     return (
         <div>
-
         </div>
     )
 

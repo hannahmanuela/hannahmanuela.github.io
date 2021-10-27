@@ -1,13 +1,16 @@
 import './App.css';
 import LandingView from './LandingView'
+import About from './components/About';
+import Experience from './components/Experience';
+import Education from './components/Education';
 
 function App() {
   return (
     <div className="App">
         <LandingView/>
-        <div>
-            <p> NEXT </p>
-        </div>
+        <About/>
+        <Experience/>
+        <Education/>
     </div>
   );
 }
