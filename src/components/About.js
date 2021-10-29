@@ -4,9 +4,8 @@ import me from "./../me.jpg"
 export default function About() {
     return (
         <div id="about-section">
-            <div className="section_text">
-                <h2> Hi There! </h2>
-                <br/>
+            <h2 className="section-heading"> Hi There! </h2>
+            <div className="section-text">
                 <p> 
                     Nice to see you :) <br/> 
                     <br/> 
@@ -21,7 +20,7 @@ export default function About() {
                     My hobbies include photography, ballroom dancing, and martial arts. <br/>
                 </p>
             </div>
-            <img className="section_img" src={me}></img>
+            <img className="section-img" style={{width: "20%",}} src={me}></img>
         </div>
     )
 

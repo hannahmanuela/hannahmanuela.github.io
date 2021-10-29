@@ -14,7 +14,7 @@ export default function LandingView() {
         //     const mouseY = e.clientY / windowHeight;
             
         //     bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
-        const el = document.querySelector(".title_foto");
+        const el = document.querySelector(".title-foto");
 
         el.addEventListener("mousemove", (e) => {
         el.style.backgroundPositionX = -e.offsetX / 5 + "px";
@@ -28,7 +28,7 @@ export default function LandingView() {
     return (
         <div>
             {/* <h1>Do I Dare Disturb the Universe?</h1> */}
-            <div class="title_foto"></div>
+            <div class="title-foto"></div>
             <div className="landing">
                 <h1 id = "name"> Hannah Gross </h1>
             </div>
