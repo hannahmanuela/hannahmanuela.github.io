@@ -4,6 +4,21 @@
   font-family:'Courier New', Courier, monospace;
 }
 
+#loading-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(212, 194, 166);
+  display: flex;
+}
+
+#loading-text {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   font-size: 10vh;
 }

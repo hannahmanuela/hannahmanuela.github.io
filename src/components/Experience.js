@@ -2,6 +2,7 @@ import './../App.css';
 import gap_year_pic from "./../gap_year.png"
 import theator_summer from "./../theator.jpg"
 import vaha_summer from "./../vaha_2020.png"
+import fsab_proj_man from "./../fsab-proj-man.png"
 
 
 export default function Experience() {
@@ -66,12 +67,17 @@ export default function Experience() {
 
             <div className="experience-card" >
                 <div className="section-text">
-                    <h3> Full Stack Project Manager </h3>
+                    <h3> Full Stack at Brown Project Manager </h3>
                     <p> 
-                        TODO
+                        This is a year-round extra currilcular activity. As a project manager,
+                        I <span style={{fontWeight: "bold"}}> manage teams of 3-4 engineers and designers </span>,
+                        building pro-bono projects to build websites / web apps for clients. <br/>
+                        <br/>
+                        <span style={{fontWeight: "bold"}}> Past projects </span> include <a href="http://www.brownlabmatch.com"> Brown Lab Match </a>
+                        and <a href="https://brownclimbingclub.bottone.io"> Brown Climbing Club </a>.
                     </p>
                 </div>
-                <img className="section-img" style={{width: "30%",}} src={gap_year_pic}></img>
+                <img className="section-img" style={{width: "20%",}} src={fsab_proj_man}></img>
             </div>
 
         </div>
