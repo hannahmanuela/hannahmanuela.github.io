@@ -1,19 +1,9 @@
 import './App.css';
 import React, { useEffect } from "react";
-// import title_foto from './title_foto.png'; 
 
 export default function LandingView() {
 
     useEffect(() => {
-        // const bg = document.querySelector('.background-image');
-        // const windowWidth = window.innerWidth / 2;
-        // const windowHeight = window.innerHeight / 2 ;
-
-        // bg.addEventListener('mousemove', (e) => {
-        //     const mouseX = e.clientX / windowWidth;
-        //     const mouseY = e.clientY / windowHeight;
-            
-        //     bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
         const el = document.querySelector(".title-foto");
 
         el.addEventListener("mousemove", (e) => {

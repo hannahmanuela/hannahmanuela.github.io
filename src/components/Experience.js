@@ -1,5 +1,8 @@
 import './../App.css';
 import gap_year_pic from "./../gap_year.png"
+import theator_summer from "./../theator.jpg"
+import vaha_summer from "./../vaha_2020.png"
+
 
 export default function Experience() {
     return (
@@ -39,7 +42,7 @@ export default function Experience() {
                         I also, using that data warehouse, put together <span style={{fontWeight: "bold"}}> dashboards and views for managers and shareholders. </span> 
                     </p>
                 </div>
-                <img className="section-img" style={{width: "30%",}} src={gap_year_pic}></img>
+                <img className="section-img" style={{width: "30%",}} src={vaha_summer}></img>
             </div>
 
             <div className="experience-card" >
@@ -58,7 +61,7 @@ export default function Experience() {
                         </ul>
                     </p>
                 </div>
-                <img className="section-img" style={{width: "30%",}} src={gap_year_pic}></img>
+                <img className="section-img" style={{width: "30%",}} src={theator_summer}></img>
             </div>
 
             <div className="experience-card" >
