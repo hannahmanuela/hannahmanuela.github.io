@@ -17,6 +17,7 @@ export default function Education() {
                         <ul>
                             <li> Introduction to Computer Systems </li>
                             <li> Discrete Structures and Probability </li>
+                            <li> Deep Learning </li>
                             <li> Systems Security (w/ extra lab component) </li>
                             <li> Probabilistic Methods in Computer Science </li>
                             <li> Design and Analysis of Algorithms </li>

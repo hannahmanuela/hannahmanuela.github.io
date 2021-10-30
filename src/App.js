@@ -5,18 +5,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import LoadingPage from './components/LoadingPage'
-
-// function App() {
-//   return (
-//     <div className="App">
-//         <LoadingPage/>
-//         <LandingView/>
-//         <About/>
-//         <Experience/>
-//         <Education/>
-//     </div>
-//   );
-// }
+import Header from './components/Header.js'
 
 class App extends React.Component {
   state = {
@@ -38,6 +27,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <LandingView/>
+        <Header/>
         <About/>
         <Experience/>
         <Education/>

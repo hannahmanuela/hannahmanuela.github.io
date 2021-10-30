@@ -26,6 +26,9 @@ export default function About() {
                     for <a href="https://www.fullstackatbrown.com"> Full Stack At Brown</a>. </span> <br/>
                     <br/>
                     My hobbies include photography, ballroom dancing, and martial arts. <br/>
+                    <br/>
+                    <br/>
+                    You can find here <a href={process.env.PUBLIC_URL + '/CV-Hannah-Gross.pdf'} target = "_blank"> my CV </a>
                 </p>
             </div>
             <img className="section-img" style={{width: "20%",}} src={me}></img>

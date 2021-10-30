@@ -1,7 +1,18 @@
 
+html {
+  --color-about: #FAD089;
+  --color-prof-exp: #FF9C5B;
+  --color-proj-exp: #F5634A;
+  --color-education: #3A8182;
+}
+
 
 .App {
   font-family:'Courier New', Courier, monospace;
+}
+
+h1 {
+  font-size: 10vh;
 }
 
 #loading-page {
@@ -19,10 +30,41 @@
   align-items: center;
 }
 
-h1 {
-  font-size: 10vh;
+
+/* ---------------------- HEADER ---------------------- */
+#header-bar {
+  position: sticky;
+  top: 0px;
+  width: 100vw;
 }
 
+.header-option {
+  display: flex;
+  float: left;
+  width: 25%;
+  height: 4vh;
+  font-size: larger;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-header-option {
+  background-color: var(--color-about);
+}
+#professional-experience-header-option {
+  background-color: var(--color-prof-exp);
+}
+#projects-experience-header-option {
+  background-color: var(--color-proj-exp);
+}
+#education-header-option {
+  background-color: var(--color-education);
+}
+
+/* ---------------------- LANDING ---------------------- */
 #name {
   margin-bottom: 5vh;
   color:black;
@@ -35,16 +77,10 @@ h1 {
   width: 100vw;
   height: 100vh;
   background-image: url(./title_foto.png);
-  background-size: 145%;
+  background-size: 150%;
 }
 
-
-#about-section {
-  background-color: rgb(210, 228, 161);
-  display: inline-block;
-  width: 100%;
-  padding-bottom: 5%;
-}
+/* ---------------------- GENERAL SECTION ---------------------- */
 
 .section-heading {
   margin-left: 5%;
@@ -62,11 +98,29 @@ h1 {
   margin-left: 10%;
 }
 
-#experience-section {
-  background-color: rgb(47, 88, 201);
+/* ---------------------- ABOUT ---------------------- */
+
+#about-section {
+  background-color: var(--color-about);
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+/* ---------------------- EXPERIENCE ---------------------- */
+
+.experience-section {
   display: inline-block;
   width: 100%;
   
+}
+
+#professional-experience-section {
+  background-color: var(--color-prof-exp);
+}
+
+#projects-experience-section {
+  background-color: var(--color-proj-exp);
 }
 
 .experience-card {
@@ -74,12 +128,20 @@ h1 {
   padding: 3%;
   min-height: 1%;
   overflow: auto;
-  background-color: rgb(53, 98, 223);
 }
 
+#professional-experience-section .experience-card {
+  background-color: #f5a773;
+}
+
+#projects-experience-section .experience-card {
+  background-color: #e6735f;
+}
+
+/* ---------------------- EDUCATION ---------------------- */
 
 #education-section {
-  background-color: blanchedalmond;
+  background-color: var(--color-education);
   display: inline-block;
   width: 100%;
 }
@@ -89,7 +151,7 @@ h1 {
   padding: 3%;
   min-height: 1%;
   overflow: auto;
-  background-color: rgb(212, 194, 166);
+  background-color: #44999b;
 }
 
 .education-card .section-text {
