@@ -1,5 +1,6 @@
 import './../App.css';
-import fsab_proj_man from "./../fsab-proj-man.png"
+import fsabPic from "./../fsab_pic.png"
+import brownPic from "./../brown_foto.png"
 
 
 
@@ -20,7 +21,7 @@ export default function ExperienceProjects() {
                         and <a href="https://brownclimbingclub.bottone.io"> Brown Climbing Club </a>.
                     </p>
                 </div>
-                <img className="section-img" style={{width: "20%",}} src={fsab_proj_man}></img>
+                <img className="section-img" style={{width: "15%",}} src={fsabPic}></img>
             </div>
 
             <div className="experience-card" >
@@ -31,7 +32,7 @@ export default function ExperienceProjects() {
                         Some colleagues and I built a deep forest! Check out the <a href={process.env.PUBLIC_URL + '/Deep-F-Poster.pdf'} target = "_blank"> project poster  </a>
                     </p>
                 </div>
-                <img className="section-img" style={{width: "20%",}} src={fsab_proj_man}></img>
+                <img className="section-img" style={{width: "20%",}} src={brownPic}></img>
             </div>
 
         </div>
