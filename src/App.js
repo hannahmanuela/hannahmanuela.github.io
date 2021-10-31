@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import LoadingPage from './components/LoadingPage'
 import Header from './components/Header.js'
+import Footer from './components/Footer';
 
 class App extends React.Component {
   state = {
@@ -13,15 +14,14 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    // this simulates an async action, after which the component will render the content
     demoAsyncCall().then(() => this.setState({ loading: false }));
   }
   
   render() {
     const { loading } = this.state;
     
-    if(loading) { // if your component doesn't have to wait for an async action, remove this block 
-      return <LoadingPage/>; // render null when app is not ready
+    if(loading) {
+      return <LoadingPage/>;
     }
     
     return (
@@ -31,6 +31,7 @@ class App extends React.Component {
         <About/>
         <Experience/>
         <Education/>
+        <Footer/>
     </div>
     ); 
   }

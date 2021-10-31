@@ -154,9 +154,26 @@ h1 {
   background-color: #44999b;
 }
 
-.education-card .section-text {
-  width: 100%;
-  margin-left: 3%;
+.education-card .section-img {
+  padding-left: 20%;
+}
+
+
+/* ---------------------- FOOTER ---------------------- */
+
+#footer {
+  background-color: var(--color-education);
+  border-top: solid;
+  border-color: #44999b;
+  padding: 3%;
+}
+
+#footer-contact-info {
+  padding-bottom: 2%;
+}
+
+.contact-info {
+  padding-right: 2%;
 }
 
 

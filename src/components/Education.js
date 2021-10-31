@@ -1,5 +1,5 @@
 import './../App.css';
-import gap_year_pic from "./../gap_year.png"
+import brown_logo from "./../brown-logo.png"
 
 export default function Education() {
     return (
@@ -9,7 +9,8 @@ export default function Education() {
 
             <div className="education-card" >
                 <div className="section-text">
-                    <h3> Brown University </h3>
+                    <h3> Brown University <img style={{width: "5%", paddingLeft:"1%"}} src={brown_logo}></img> </h3>
+                    
                     <p> 
                         The following are my favorite classes that I've taken so far. <br/>
                         <br/>
@@ -38,13 +39,10 @@ export default function Education() {
                             <li> Topics in Constitutional Law </li>
                             <li> Cyber Security: Strategy and Policy </li>
                         </ul>
-            </p>
+                    </p>
                 </div>
-                {/* <img className="section_img" style={{width: "5%",}} src={gap_year_pic}></img> */}
             </div>
-
-
-
+            
         </div>
     )
 
