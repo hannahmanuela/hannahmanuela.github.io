@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import LoadingPage from './components/LoadingPage'
 import Header from './components/Header.js'
+import FAQ from './components/FAQ.js'
 import Footer from './components/Footer';
 
 class App extends React.Component {
@@ -31,6 +32,7 @@ class App extends React.Component {
         <About/>
         <Experience/>
         <Education/>
+        <FAQ/>
         <Footer/>
     </div>
     ); 

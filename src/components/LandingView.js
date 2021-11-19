@@ -3,17 +3,17 @@ import React, { useEffect } from "react";
 
 export default function LandingView() {
 
-    useEffect(() => {
-        const el = document.querySelector(".title-foto");
+    // useEffect(() => {
+    //     const el = document.querySelector(".title-foto");
 
-        el.addEventListener("mousemove", (e) => {
-        el.style.backgroundPositionX = -e.offsetX / 5 + "px";
-        el.style.backgroundPositionY = -e.offsetY / 5+ "px";
-        });
-        return () => {
+    //     el.addEventListener("mousemove", (e) => {
+    //     el.style.backgroundPositionX = -e.offsetX / 5 + "px";
+    //     el.style.backgroundPositionY = -e.offsetY / 5+ "px";
+    //     });
+    //     return () => {
             
-        };
-    }, []);
+    //     };
+    // }, []);
 
     return (
         <div>

@@ -3,7 +3,8 @@ html {
   --color-about: #FAD089;
   --color-prof-exp: #FF9C5B;
   --color-proj-exp: #F5634A;
-  --color-education: #3A8182;
+  --color-education: #2a9e8f;
+  --color-faq: #3A8182;
 }
 
 
@@ -41,7 +42,7 @@ h1 {
 .header-option {
   display: flex;
   float: left;
-  width: 25%;
+  width: 20%;
   height: 4vh;
   font-size: larger;
   text-decoration: none;
@@ -63,6 +64,9 @@ h1 {
 #education-header-option {
   background-color: var(--color-education);
 }
+#faq-header-option {
+  background-color: var(--color-faq);
+}
 
 /* ---------------------- LANDING ---------------------- */
 #name {
@@ -70,14 +74,14 @@ h1 {
   color:black;
   bottom: 20px;
   position: absolute;
-  margin-left: 10vw;
+  margin-left: 7vw;
 }
 
 .title-foto {
   width: 100vw;
   height: 100vh;
-  background-image: url(./title_foto.png);
-  background-size: 150%;
+  background-image: url(./title_foto.jpg);
+  background-size: 100%;
 }
 
 /* ---------------------- GENERAL SECTION ---------------------- */
@@ -151,18 +155,25 @@ h1 {
   padding: 3%;
   min-height: 1%;
   overflow: auto;
-  background-color: #44999b;
+  background-color: #30ad9d;
 }
 
 .education-card .section-img {
   padding-left: 20%;
 }
 
+/* ----------------------- FAQ ----------------------- */
+
+#faq-section {
+  background-color: var(--color-faq);
+  padding: 5%;
+}
+
 
 /* ---------------------- FOOTER ---------------------- */
 
 #footer {
-  background-color: var(--color-education);
+  background-color: var(--color-faq);
   border-top: solid;
   border-color: #44999b;
   padding: 3%;

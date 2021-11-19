@@ -7,8 +7,10 @@ export default function About() {
         <div id="about-section">
             <Typing className="section-heading" loop={true}>
                 <h2>Hi There! 
-                <Typing.Backspace count={10} />
+                <Typing.Delay ms={300} />
+                <Typing.Backspace count={14} />
                 Welcome to my website :) </h2>
+                <Typing.Delay ms={300} />
                 <Typing.Backspace count={27} />
             </Typing>
             <div className="section-text">
