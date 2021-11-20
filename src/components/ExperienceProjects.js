@@ -28,8 +28,11 @@ export default function ExperienceProjects() {
                 <div className="section-text">
                     <h3> Deep Forest </h3>
                     <p> 
-                        This was the final project for my Deep Learning class. <br/>
-                        Some colleagues and I built a deep forest! Check out the <a href={process.env.PUBLIC_URL + '/Deep-F-Poster.pdf'} target = "_blank"> project poster  </a>
+                        This was the final project for a Deep Learning class. <br/>
+                        Some colleagues and I built a <span style={{fontWeight: "bold"}}> deep forest! </span>  <br/>
+                        The fundamental idea is that it is a random forest, but with <span style={{fontWeight: "bold"}}> deep decision boundaries </span> in each of the deciison trees. <br/>
+                        <br/>
+                        Check out the <a href={process.env.PUBLIC_URL + '/Deep-F-Poster.pdf'} target = "_blank"> project poster  </a>
                     </p>
                 </div>
                 <img className="section-img" style={{width: "20%",}} src={brownPic}></img>

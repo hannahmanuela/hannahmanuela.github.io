@@ -15,13 +15,12 @@ export default function About() {
             </Typing>
             <div className="section-text">
                 <p> 
-                    Nice to see you :) <br/> 
+                    About me <br/> 
                     <br/> 
-                    As you might have guessed, my name is Hannah. <br/>
-                    I was born and raised in <span style={{fontWeight: "bold"}}> Berlin, Germany </span>, 
+                    I was born and raised in <span style={{fontWeight: "bold"}}> Berlin (Germany)</span>, 
                     and now <span style={{fontWeight: "bold"}}> study Math and Computer Science at Brown University. </span> <br/>
                     <br/>
-                    I'm not sure what I want to do yet. 
+                    I want to go into secure system design, but have experience and interests in many different fields of computer science. 
                     My experience includes creating <span style={{fontWeight: "bold"}}> data warehouses and integrated 
                     data anlysis pipelines </span> for two startups, as well as being a <span style={{fontWeight: "bold"}}>
                          project manager 
@@ -29,8 +28,10 @@ export default function About() {
                     <br/>
                     My hobbies include photography, ballroom dancing, and martial arts. <br/>
                     <br/>
+                    See the <a href="#faq-section"> FAQ section</a> below for for more about me :) <br/>
                     <br/>
-                    You can find here <a href={process.env.PUBLIC_URL + '/CV-Hannah-Gross.pdf'} target = "_blank"> my CV </a>
+                    <br/>
+                    You can find here <a href={process.env.PUBLIC_URL + '/CV-Hannah-Gross.pdf'} target = "_blank"> my CV</a> <br/>
                 </p>
             </div>
             <img className="section-img" style={{width: "20%",}} src={me}></img>

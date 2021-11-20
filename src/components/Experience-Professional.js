@@ -14,7 +14,7 @@ export default function ExperienceProfessional() {
                     <p> 
                         I spent the COVID-summer of 2020 working for a Berlin based company called Vaha. <b/>
                         I worked closely with an outside consultant to <span style={{fontWeight: "bold"}}> build from scratch a full data warehouse on Postgresql. </span>  <br/>
-                        This included coming up with <span style={{fontWeight: "bold"}}> customer attribution models and trackings ratings. </span>  <br/>
+                        This included coming up with <span style={{fontWeight: "bold"}}> customer attribution models and ratings tracking. </span>  <br/>
                         I also, using that data warehouse, put together <span style={{fontWeight: "bold"}}> dashboards and views for managers and shareholders. </span> 
                     </p>
                 </div>
@@ -30,7 +30,7 @@ export default function ExperienceProfessional() {
                         set up an <span style={{fontWeight: "bold"}}> end to end data infrastructure </span>. <br/>
                         This included 
                         <ul>
-                            <li> building a <span style={{fontWeight: "bold"}}> custom coded ETL process </span> from their data lake in elasticsearch to the realtional database in Redshift. </li>
+                            <li> building a <span style={{fontWeight: "bold"}}> custom coded ETL process </span> from their data lake in elasticsearch to a relational database in Redshift. </li>
                             <li> building a <span style={{fontWeight: "bold"}}> full data warehouse </span> on AWS </li>
                             <li> creating a <span style={{fontWeight: "bold"}}> backend API </span> for that data warehouse </li>
                             <li> and designing <span style={{fontWeight: "bold"}}> dashboards </span> on Metabase </li>
