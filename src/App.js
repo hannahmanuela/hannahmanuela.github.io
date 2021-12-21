@@ -32,7 +32,7 @@ class App extends React.Component {
         <About/>
         <Experience/>
         <Education/>
-        <FAQ/>
+        {/* <FAQ/> */}
         <Footer/>
     </div>
     ); 
