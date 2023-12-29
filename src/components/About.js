@@ -46,7 +46,7 @@ export default function About() {
                     </div>
                 </p>
             </div>
-            <img className="section-img" style={{ width: "20%", }} src={me}></img>
+            <img className="section-img" style={{ width: "28%", }} src={me}></img>
         </div>
     )
 
