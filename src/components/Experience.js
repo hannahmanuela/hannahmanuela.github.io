@@ -6,8 +6,8 @@ export default function Experience() {
 
     return (
         <div>
-            <ExperienceProfessional />
             <ResearchExperience />
+            <ExperienceProfessional />
         </div>
     )
 }

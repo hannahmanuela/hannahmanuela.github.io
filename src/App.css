@@ -1,7 +1,7 @@
 html {
   --color-about: #FAD089;
-  --color-prof-exp: #FF9C5B;
-  --color-proj-exp: #F5634A;
+  --color-proj-exp: #FF9C5B ;
+  --color-prof-exp: #F5634A;
   --color-education: #2a9e8f;
   --color-faq: #3A8182;
 }
@@ -41,7 +41,7 @@ h1 {
 .header-option {
   display: flex;
   float: left;
-  width: 25%;
+  width: 33.33%;
   height: 4vh;
   font-size: larger;
   text-decoration: none;
@@ -75,14 +75,14 @@ h1 {
 #name {
   margin-bottom: 5vh;
   color: black;
-  bottom: 20px;
+  bottom: 40vh;
   position: absolute;
-  margin-left: 7vw;
+  margin-left: 60vw;
 }
 
 .title-foto {
   width: 100vw;
-  height: 100vh;
+  height: 60vh;
   background-image: url(./title_foto.jpg);
   background-size: 100%;
 }
@@ -138,11 +138,11 @@ h1 {
 }
 
 #professional-experience-section .experience-card {
-  background-color: #f5a773;
+  background-color: #e6735f;
 }
 
 #research-experience-section .experience-card {
-  background-color: #e6735f;
+  background-color: #f5a773;
 }
 
 /* ---------------------- EDUCATION ---------------------- */

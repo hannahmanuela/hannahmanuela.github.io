@@ -20,27 +20,21 @@ export default function About() {
                 <p>
                     About me <br />
                     <br />
-                    I was born and raised in <span style={{ fontWeight: "bold" }}> Berlin (Germany)</span>,
-                    and now <span style={{ fontWeight: "bold" }}> study Math and Computer Science at Brown University. </span> <br />
+                    I am currently a PhD student in the <a href="https://pdos.csail.mit.edu/">PDOS group</a> at MIT,
+                    where my advisor is <a href="https://people.csail.mit.edu/kaashoek/">Frans Kaashoek</a> <br />
                     <br />
-                    I want to go into <span style={{ fontWeight: "bold" }}> computer systems </span>, but have experience and interests in many different fields of computer science. <br />
+                    I did my undergraduate degree at Brown University, where I was part of 
+                    the <a href="https://explorecsr.cs.brown.edu/systems/index.html">exploreCSR program</a>,
+                    as well as the <a href="https://etos.cs.brown.edu/">Etos group</a>. <br />
                     < br />
-                    My <span style={{ fontWeight: "bold" }}> industry experience </span> includes creating data warehouses and integrated
-                    data anlysis pipelines for two startups, as well as interning at Amazon. <br />
-                    <br />
-                    My <span style={{ fontWeight: "bold" }}> research experience </span> includes being part of the <a href="https://explorecsr.cs.brown.edu/systems/index.html">
-                        exploreCSR program</a> at Brown,
-                    as well as part of the larger <a href="https://etos.cs.brown.edu/"> Etos systems group</a>. <br />
-                    I have worked on two research projects so far, outlined in the <a href="#research-experience-section">research experience section</a>. <br />
+                    My industry experience includes creating data warehouses and integrated data anlysis pipelines for two startups, 
+                    as well as interning at Amazon. <br />
                     <br />
                     My hobbies include photography, ballroom dancing, and martial arts. <br />
                     <br />
                     <br />
-                    You can find here <a href={process.env.PUBLIC_URL + '/CV-Hannah-Gross.pdf'} target="_blank"> my CV</a> <br />
-                    <br />
-                    <br />
                     <div id="footer-contact-info">
-                        <a className="contact-info" href='mailto:hannah_gross@brown.edu'>
+                        <a className="contact-info" href='mailto:hmng@mit.edu'>
                             <img src={email_logo} style={{ width: "3vw", }} />
                         </a>
                         <a className="contact-info" href="https://github.com/hannahmanuela">

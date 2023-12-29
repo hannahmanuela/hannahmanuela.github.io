@@ -7,8 +7,8 @@ import linkedin_logo from './../linkedin-logo.png'
 export default function Footer() {
     return(
         <div id="footer">
-            <div id="footer-contact-info"> 
-                <a className="contact-info" href='mailto:hannah_gross@brown.edu'> 
+            {/* <div id="footer-contact-info"> 
+                <a className="contact-info" href='mailto:hmng@mit.edu'> 
                     <img src={email_logo} style={{width: "3vw",}}/>
                 </a>
                 <a className="contact-info" href="https://github.com/hannahmanuela"> 
@@ -17,7 +17,7 @@ export default function Footer() {
                 <a className="contact-info" href="https://www.linkedin.com/in/hannah-mn-gross/"> 
                     <img src={linkedin_logo} style={{width: "2vw",}}/>
                 </a>
-            </div>
+            </div> */}
             <div>
                 <span> Site designed and made by Hannah Gross </span>
             </div>
