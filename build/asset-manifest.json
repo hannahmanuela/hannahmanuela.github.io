@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.88f53e14.chunk.css",
-    "main.js": "/static/js/main.414ecb41.chunk.js",
-    "main.js.map": "/static/js/main.414ecb41.chunk.js.map",
+    "main.js": "/static/js/main.fa3bd238.chunk.js",
+    "main.js.map": "/static/js/main.fa3bd238.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6a9089f4.js",
     "runtime-main.js.map": "/static/js/runtime-main.6a9089f4.js.map",
     "static/js/2.cdd86259.chunk.js": "/static/js/2.cdd86259.chunk.js",
@@ -14,9 +14,9 @@
     "static/js/2.cdd86259.chunk.js.LICENSE.txt": "/static/js/2.cdd86259.chunk.js.LICENSE.txt",
     "static/media/amazon-photo.96f5fc7d.jpg": "/static/media/amazon-photo.96f5fc7d.jpg",
     "static/media/brown-logo.8be561e1.png": "/static/media/brown-logo.8be561e1.png",
-    "static/media/edna-fig.2fa897e9.png": "/static/media/edna-fig.2fa897e9.png",
+    "static/media/edna-fig.72646432.png": "/static/media/edna-fig.72646432.png",
     "static/media/email-logo.d2b39649.png": "/static/media/email-logo.d2b39649.png",
-    "static/media/funhouse-fig.a068d546.png": "/static/media/funhouse-fig.a068d546.png",
+    "static/media/funhouse-fig.4a870865.png": "/static/media/funhouse-fig.4a870865.png",
     "static/media/github-logo.a7cb412d.png": "/static/media/github-logo.a7cb412d.png",
     "static/media/linkedin-logo.7a5eab93.png": "/static/media/linkedin-logo.7a5eab93.png",
     "static/media/me.46b1b939.jpg": "/static/media/me.46b1b939.jpg",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.6a9089f4.js",
     "static/js/2.cdd86259.chunk.js",
     "static/css/main.88f53e14.chunk.css",
-    "static/js/main.414ecb41.chunk.js"
+    "static/js/main.fa3bd238.chunk.js"
   ]
 }
