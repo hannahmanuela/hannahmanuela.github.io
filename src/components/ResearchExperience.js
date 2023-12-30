@@ -43,12 +43,6 @@ export default function ResearchExperience() {
                         all of a user's data, and revealing, which restores the sealed data at a user's request, without breaking the
                         application for other users. Sealing transformations store user data in an encrypted form and make any necessary
                         changes to the application database. Revealing reintroduces the sealed data to the application database. <br />
-                        <br />
-                        A piece I contributed to Edna was a better story for key management that avoids depending on end users to safely
-                        store a private key. I designed an authentication scheme that allows users to authenticate (i.e. give the application
-                        enough information to regenerate the private key) with either their application password or a share of their private
-                        key. To realize this schema, I created a variant of Shamir's Secret Sharing with one share based on the user's
-                        password (via a PBKDF) and integrated the new authentication workflow into Edna.
                     </p>
                 </div>
                 <img className="section-img" style={{ width: "30%", }} src={ednaFig}></img>

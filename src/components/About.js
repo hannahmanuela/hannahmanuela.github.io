@@ -25,12 +25,13 @@ export default function About() {
                     <br />
                     I did my undergraduate degree at Brown University, where I was part of 
                     the <a href="https://explorecsr.cs.brown.edu/systems/index.html">exploreCSR program</a>,
-                    as well as the <a href="https://etos.cs.brown.edu/">Etos group</a>. <br />
+                    as well as the <a href="https://etos.cs.brown.edu/">Etos group</a>, and was advised 
+                    by <a href="https://cs.brown.edu/people/malte/">Malte Schwarzkopf</a>. <br />
                     < br />
                     My industry experience includes creating data warehouses and integrated data anlysis pipelines for two startups, 
                     as well as interning at Amazon. <br />
                     <br />
-                    My hobbies include photography, ballroom dancing, and martial arts. <br />
+                    My main hobby is gymnastics, but I love to dabble (in the past this has included many types of dance and martial arts, sailing, etc). <br />
                     <br />
                     <br />
                     <div id="footer-contact-info">
