@@ -27,9 +27,6 @@ export default function About() {
                     the <a href="https://explorecsr.cs.brown.edu/systems/index.html">exploreCSR program</a>,
                     joining the <a href="https://etos.cs.brown.edu/">Etos group</a>. I was advised 
                     by <a href="https://cs.brown.edu/people/malte/">Malte Schwarzkopf</a>. <br />
-                    < br />
-                    My industry experience includes creating data warehouses and integrated data anlysis pipelines for two startups, 
-                    as well as interning at Amazon. <br />
                     <br />
                     My main hobby is gymnastics, but I love to dabble (in the past this has included many types of dance and martial arts, sailing, etc). <br />
                     <br />
