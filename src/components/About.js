@@ -23,9 +23,9 @@ export default function About() {
                     I am currently a PhD student in the <a href="https://pdos.csail.mit.edu/">PDOS group</a> at MIT,
                     where my advisor is <a href="https://people.csail.mit.edu/kaashoek/">Frans Kaashoek</a> <br />
                     <br />
-                    I did my undergraduate degree at Brown University, where I was part of 
+                    I did my undergraduate degree at Brown University, where I was introduced to research through 
                     the <a href="https://explorecsr.cs.brown.edu/systems/index.html">exploreCSR program</a>,
-                    as well as the <a href="https://etos.cs.brown.edu/">Etos group</a>, and was advised 
+                    joining the <a href="https://etos.cs.brown.edu/">Etos group</a>. I was advised 
                     by <a href="https://cs.brown.edu/people/malte/">Malte Schwarzkopf</a>. <br />
                     < br />
                     My industry experience includes creating data warehouses and integrated data anlysis pipelines for two startups, 
