@@ -51,6 +51,14 @@ h1 {
   align-items: center;
 }
 
+/* these kick in when the screen is small */
+@media screen and (max-width: 758px) {
+  .header-option {
+    display: none;
+  }
+}
+
+
 #about-header-option {
   background-color: var(--color-about);
 }
@@ -75,16 +83,28 @@ h1 {
 #name {
   margin-bottom: 5vh;
   color: black;
-  bottom: 40vh;
+  bottom: 50vh;
   position: absolute;
   margin-left: 60vw;
 }
 
+/* normal display rules */
 .title-foto {
   width: 100vw;
-  height: 60vh;
+  height: 50vh;
   background-image: url(./title_foto.jpg);
   background-size: 100%;
+}
+
+/* these kick in when the screen is small */
+@media screen and (max-width: 850px) {
+  .title-foto {
+    height: 0vh;
+  }
+
+  #name {
+    display: none;
+  }
 }
 
 /* ---------------------- GENERAL SECTION ---------------------- */
